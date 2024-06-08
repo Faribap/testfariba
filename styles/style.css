@@ -1,0 +1,253 @@
+ :root{--gray:#f8f9fa;
+ --pink:#F8DFD4;
+
+ }
+ 
+
+ 
+ @font-face{
+	 
+	  font-family: "iransans";
+	 src:url("../fonts/IRANSansWeb_Medium.woff") format("truetype")
+	 }
+ 
+ img{max-width:100%}
+ 
+ *,body{
+	
+	direction:rtl;
+	 position:relative
+ }
+
+ul,li{padding:0;margin:0}
+	a{text-decoration:none;color:#000}
+
+body{
+	
+font-family:"iransans"; 
+
+
+}
+
+
+.parent-item-onvan-zirmenu{position:absolute;height:200px;
+background-color:skyblue;right:0;top:30px;left:0}
+
+nav .item-onvan .item-onvan-zirmenu{
+	
+	
+	
+}
+.btndir{direction:ltr !important}
+
+
+.menuul{background-color:#404040;padding:10px 0 !important}
+.getelementheight li {color:#fff;z-index:999}
+
+.getelementheight{top:35px;z-index:999}
+
+.divbefor{position:absolute;top:85px;z-index:800;width:100%;
+background-color:#466985;
+
+	height:192px;
+	
+	
+	}
+
+.iconserch{
+left:0 ;top:0;width:40px;height:40px;
+
+background-color:#404040;	
+	
+	
+}
+
+.divsearch{
+width:100vw;
+height:70px;
+background-color:blue;
+position:absolute	;
+z-index:999
+	
+}
+
+.hw-img{height:110px;width:140px}
+
+.myrowcol{background-color:#eadfdf}
+
+.rowtwo-item{height:424px}
+
+
+.rowtwo-itemUl-li:before{
+	position:absolute;
+
+content:"";
+width:10px;
+height:10px;
+border-radius:100%;
+background-color:red;
+right:-12px;
+top:8px;
+
+
+}
+
+.rowtwo-itemUl-li-border:after{
+	position:absolute;
+
+content:"";
+width:110px;
+height:1px;	
+background-color:gray;
+right:-12px;
+top:-12px;
+	
+}
+
+.spanpic{right:37px;top:7px}
+
+.height350{height:500px;}
+
+.figure-caption{bottom:-58px;left:0;right:0;margin:0 auto}
+
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+.varzesh-item{height:100%}
+
+.border-right::before{
+	content:"";
+	position:absolute;
+	height:100%;
+	width:1px;
+	background-color:gray;
+	right:0;
+	top:0
+	
+	
+}
+
+footer ul li a{
+	
+color:#ccc	
+	
+}
+footer ul h4{color:white}
+
+.colorfoot{color: rgba(204, 204, 204, 0.7);}
+.sizep{font-size:12px}
+@media screen and (min-width:1200px) {
+	
+	
+.myrow	{min-height:400px}
+	
+.myrowcol-item{min-height:105px}	
+	
+	.hw-img {
+        height: 93px !important;
+	}
+}
+
+
+
+
+@media screen and (min-width:992px) {
+	
+	
+
+	.hw-img{height:72px;width:170px}
+	
+	.hw-img img{min-height:100%}
+	
+	
+}
+
+
+
+@media screen and (max-width:1200px) {
+	
+.section-swiper {height:416px !important}	
+}
+
+
+
+
+@media screen and (max-width:992px) {
+.menuul{overflow-x:scroll}
+
+.menuul{background-color:#404040;padding:10px 0 !important}
+.mynav{background-color:#404040!important}
+
+.divbefor{
+	
+display:none	
+}
+footer ul li a	{font-size:14px}
+footer ul h4{font-size:18px}
+}
+/*
+.formfoot::after{
+	
+position:absolute;
+content:" \F52A";
+top:7px;
+
+left:10px;
+
+font-family:bootstrap-icons;
+ color:#fff 
+	
+	
+	
+}*/
+
+.formfootchild{
+	
+top:9px;
+
+
+left:10px;	
+
+}
+@media screen and (max-width:768px) {
+	.swiper-slide-item{width:289px !important}
+.myrowcol{background-color:#fff}	
+	.rowtwo-item{height:180px}
+	.rowtwo-item-last{height:390px !important}
+	
+	.section-swiper{
+	height:250px !important	;
+	
+	padding:12px 0!important	
+	}
+	.figure-caption{bottom:-35px;}
+	.rowtwo-item h4{font-size:19px}
+}
+
+@media screen and (max-width:576px) {
+	.rowtwo-item h4{font-size:17px}
+	.iconserch{
+		
+	left: 58px;
+    top: 17px;	
+		
+	}
+	.rowtwo-item{height:100%!important}
+	
+	.secagh div h5{font-size:16px !important}
+	
+	
+}
